@@ -6,7 +6,7 @@ def main(list1):
     Returns:
         list: return answer
     """
-    list=[11,222,333]
+    list1=[11,222,333]
 
-    return list[0]
+    return list1[0]
 print(main())
