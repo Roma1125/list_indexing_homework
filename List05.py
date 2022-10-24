@@ -7,4 +7,6 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+
+    return list1[i]
+print(main([21,323,43434,545], 2))
