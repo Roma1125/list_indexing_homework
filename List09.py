@@ -8,9 +8,9 @@ def main(list1):
     """
     
     t=0
-    while t<len(list1):
+    while t<len(list1)-1:
         
-        if list1[0]!=list1[t]:
+        if list1[-1]!=list1[t]:
             answer=(False)
         else: 
             answer=(True)
