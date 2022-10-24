@@ -11,9 +11,9 @@ def main(list1):
     while t<len(list1):
         
         if list1[0]!=list1[t]:
-            a=(False)
+            answer=(False)
         else: 
-            a=(True)
+            answer=(True)
         t+=1
-    return a 
+    return answer 
 print(main([1,0,0,0,0]))
