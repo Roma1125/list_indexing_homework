@@ -7,4 +7,8 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    return
+    list1=[11,222,333]
+    list2=['asas','sasaa','asaa']
+
+    return list1+list2
+print(main())
